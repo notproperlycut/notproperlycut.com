@@ -1,8 +1,6 @@
-import Link from 'next/link'
+import Layout from '../components/layout.js'
 
 export default () => (
-  <div>
-    <h1>Hello Next.js 👋</h1>
-    <Link href='/about'><a>About</a></Link>
-  </div>
+  <Layout>
+  </Layout>
 )

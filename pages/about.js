@@ -1,8 +1,7 @@
-import Link from 'next/link'
+import Layout from '../components/layout.js'
 
 export default () => (
-  <div>
-    <p>This is the about page</p>
-    <Link href='/'><a>Go home</a></Link>
-  </div>
+  <Layout>
+    <p>Personal pages of Chris Tierney (notproperlycut)</p>
+  </Layout>
 )
